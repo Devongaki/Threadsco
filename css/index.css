@@ -58,13 +58,20 @@ a{
 /* Logo styles */
 
 nav{
-    width: 100vw;
-    padding: 20px;
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid #ccc;
     line-height: 20px;
     text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+
 }
 
 .navbar{
