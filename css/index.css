@@ -14,3 +14,22 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/* Navigation */
+
+
+nav{
+
+
+}
