@@ -116,15 +116,36 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: visible;
 }
 
 
+/* cart styles */
+
+.nav-cart{
+    margin-right: 10px;
+}
+
+.cart svg{
+    vertical-align: middle;
+}
 
 
+/* Search button styles */
+
+.search-button{
+    margin-right: 10px;
+}
+
+.search-button button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 /* hamburger styles */
 
 .hamburger-menu{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
