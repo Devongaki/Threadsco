@@ -94,6 +94,9 @@ nav{
     gap: 20px;
 }
 
+.nav-menu .active{
+    display: block;
+}
 .nav-link a{
     color: black;
     transition: color 0.3 ease;
@@ -111,60 +114,43 @@ nav{
 
 
 
-/* nav right styles */
 
-.nav-right{
+/* side-navbar */
+
+.side-navbar{
     display: flex;
-    justify-content: center;
     align-items: center;
-    overflow: visible;
+    position: relative;
 }
 
 
-/* cart styles */
-
-.nav-cart{
-    margin-right: 10px;
-}
-
-.cart svg{
+ion-icon {
+    font-size: 26px;
+    max-width: 100%;
     vertical-align: middle;
+    display: inline-block;
 }
 
-
-/* Search button styles */
-
-.search-button{
-    margin-right: 10px;
-}
-
-.search-button button{
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-/* Hamburger menu styles  */
-
-.hamburger-menu{
+.menu-icon{
     display: none;
-    justify-content: center;
-    align-items: center;
 }
-
-.menu-icon,
 .close-icon{
-    cursor: pointer;
+    display: none;
 }
 
 
 
-/* Media query for mobile */
 
-@media screen and (max-width: 768px) {
-    .nav-menu{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
+@media screen and (max-width: 991px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .search-button {
+    display: none;
+  }
 }
