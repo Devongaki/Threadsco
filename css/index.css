@@ -29,7 +29,87 @@ a{
 /* Navigation */
 
 
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+/* Logo styles */
+
 nav{
+    width: 100vw;
+    padding: 20px;
+    background-color: red;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ccc;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.nav-logo{
+    font-size: 15px;
+    color: black;
+}
 
 
+/* Menu styles */
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link a{
+    color: black;
+    transition: color 0.3 ease;
+}
+
+.nav-link a:hover{
+    color: #595959;
+}
+
+
+
+/* nav right styles */
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* hamburger styles */
+
+.hamburger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
