@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: hsla(0, 0%, 85.9%, 0.1);
 }
 
 .main-layout{
@@ -59,7 +60,7 @@ a{
 nav{
     width: 100vw;
     padding: 20px;
-    background-color: red;
+    background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ccc;
     line-height: 20px;
