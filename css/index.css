@@ -88,10 +88,16 @@ nav{
 .nav-link a{
     color: black;
     transition: color 0.3 ease;
+    text-transform: uppercase;
+    line-height: 22px;
+    padding: 21px 20px;
+    margin-top: 0;
+    margin-left: 0;
+
 }
 
 .nav-link a:hover{
-    color: #595959;
+    color: #ac1313;
 }
 
 
