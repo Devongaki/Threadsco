@@ -285,6 +285,9 @@ ion-icon {
 
 /* Sale Section */
 
+.sale-section{
+  border-top: none;
+}
 .sale-main-title{
   text-align: center;
   padding-bottom: 30px;
