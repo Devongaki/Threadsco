@@ -207,11 +207,12 @@ ion-icon {
 }
 
 .hero-tilte{
-  font-size: 30px;
+  font-size: 48px;
+  line-height: 58px;
 }
 
 .hero-tilte h1{
-  padding-bottom: .8em;
+  padding-bottom: .5em;
 }
 
 .hero-tilte span{
@@ -220,6 +221,11 @@ ion-icon {
 
 .hero-text{
   width: 50%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .hero-button{
@@ -227,9 +233,11 @@ ion-icon {
 }
 
 .hero-button button {
-  width: 50%;
-  padding: 20px;
-  background-color: white;
-  border: 1px solid;
+  width: 30%;
+  padding: 20px 40px;
+  background-color: #ac1313;
+  color: #fff;
+  line-height: 22px;
+  border: none;
 }
 /* Hero Section */
