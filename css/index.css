@@ -263,7 +263,7 @@ ion-icon {
 }
 
 .service-icon{
-  width: 80px;
+  width: 90px;
   margin-bottom: 24px;
 }
 
@@ -280,6 +280,21 @@ ion-icon {
   font-weight: 500;
 }
 
+.service-text{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 991px){
+  .service-content{
+    grid-column-gap: 0;
+    grid-row-gap: 32px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
 /* service-card */
 
 
