@@ -242,3 +242,52 @@ ion-icon {
   border: none;
 }
 /* Hero Section */
+
+
+
+/* Sale Section */
+.sale-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  
+}
+
+.sale-card{
+  position: relative;
+}
+
+.sale-image img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sale-lable{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+}
+
+.sale-title{
+  margin-top: 10px;
+}
+
+.sale-price{
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.old-price{
+  color: #6c6c6c;
+  text-decoration: line-through;
+}
+
+.new-price{
+  padding-left: 10px;
+}
+/* Sale Section */
