@@ -244,8 +244,52 @@ ion-icon {
 /* Hero Section */
 
 
+/* service-card */
+
+.service-content{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.service-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-icon{
+  width: 80px;
+  margin-bottom: 24px;
+}
+
+.service-icon svg{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.service-title{
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/* service-card */
+
 
 /* Sale Section */
+
+.sale-main-title{
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
 .sale-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -291,3 +335,4 @@ ion-icon {
   padding-left: 10px;
 }
 /* Sale Section */
+
