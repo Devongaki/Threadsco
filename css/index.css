@@ -134,7 +134,9 @@ nav{
 .nav-link a:hover{
     color: #ac1313;
 }
-
+#nav-active a{
+  color: #ac1313;
+}
 
 
 
@@ -353,4 +355,69 @@ ion-icon {
   padding-left: 10px;
 }
 /* Sale Section */
+
+/* about-us */
+
+.about-us{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  grid-template-areas: ". .";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.about-us-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(/images/about\ home\ img.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 800px;
+  padding: 80px;
+}
+
+.about-us-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: #6c6c6c;
+  text-align: center;
+}
+.about-us-column h2{
+  max-width: 550px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.about-us-column p{
+  max-width: 550px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-button{
+  padding: 20px 40px;
+  background-color: #ac1313;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .about-us{
+    grid-template-areas: "." ".";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+/* about-us */
 
