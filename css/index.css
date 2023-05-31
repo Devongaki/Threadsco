@@ -242,6 +242,7 @@ ion-icon {
   color: #fff;
   line-height: 22px;
   border: none;
+  cursor: pointer;
 }
 /* Hero Section */
 

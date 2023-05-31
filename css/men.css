@@ -1,0 +1,20 @@
+
+
+
+
+
+.men-shop-btn{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.men-shop-btn button{
+    padding: 20px 40px;
+    background-color: #ac1313;
+    color: #fff;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
