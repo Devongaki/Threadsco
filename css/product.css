@@ -1,0 +1,25 @@
+
+
+.product-grid{
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    grid-template-columns: 1.25fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    max-width: 1860px;
+    margin-top: 60px;
+    padding-right: 60px;
+}
+
+.product-image{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.product-image img{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
