@@ -27,3 +27,4 @@ function handleCloseClick() {
 
 menuIcon.addEventListener("click", handleMenuClick);
 closeIcon.addEventListener("click", handleCloseClick);
+
