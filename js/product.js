@@ -5,6 +5,7 @@ const id = urlParams.get("id");
 
 import items from "./items.js";
 
+
 console.log(id)
 
 

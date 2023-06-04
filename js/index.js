@@ -28,5 +28,4 @@ function getItems(arg) {
         console.log(items[i])
     }
 }
-
 getItems(items)

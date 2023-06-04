@@ -6,7 +6,7 @@ function getMensItems(){
     for(let i = 0; i < mensItems.length; i++){
         mensProducts.innerHTML += `
             <div class="product-card">
-                <a href="/product.html">
+                <a href="product.html?id=${mensItems[i].id}">
                     <div class="product-image">
                         <img src="${mensItems[i].image}" alt="" loading="eager">
                     </div>    
