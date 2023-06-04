@@ -4,7 +4,7 @@
     display: grid;
     grid-column-gap: 30px;
     grid-row-gap: 0px;
-    grid-template-columns: 1.25fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     grid-template-rows: auto;
     grid-auto-columns: 1fr;
     width: 100%;
@@ -29,10 +29,13 @@
 }
 
 .product-purchase-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
     position: sticky;
     top: 145px;
     max-width: 460px;
-   
     background-color: #f9f9f9;
 }
 
@@ -189,18 +192,13 @@ form{
     }
 
     .product-purchase-header{
-        margin-bottom: 0px;
-        order: 1; 
+        margin-bottom: 0px; 
     }
 
     .product-image{
         margin-bottom: 20px;
-        order: 2; 
+        order: 1; 
     }
 
-    .product-purchase-description,
-    form {
-        order: 3; 
-    }
 }
 
