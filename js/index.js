@@ -45,12 +45,12 @@ function getItems(arg) {
             <div class="sale-card">
                         <a href="product.html?id">
                             <div class="sale-image">
-                                <img src="/images/sale 1.jpeg" alt="" loading="eager">
+                                <img src="${items[i].image}" alt="" loading="eager">
                                 <div class="sale-lable">Sale</div>
                             </div>    
                         </a>
                         <div class="sale-title">
-                                <p>${items.title}</p>
+                                <p>${items[i].title}</p>
                             </div>
                             <div class="sale-price">
                                 <div class="old-price">
