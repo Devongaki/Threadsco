@@ -21,6 +21,10 @@
 .product-image img{
     display: inline-block;
     max-width: 100%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
     vertical-align: middle;
 }
 
