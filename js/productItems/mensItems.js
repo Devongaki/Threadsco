@@ -1,6 +1,6 @@
 const mensItems = [
   {
-    id: 01,
+    id: 1,
     title: "Denim Jacket",
     image: "images/men/men 1.jpeg",
     description: "This is item 1",
@@ -8,7 +8,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 02,
+    id: 2,
     title: "Denim Jacket",
     image: "images/men/men 2.jpeg",
     description: "This is item 1",
@@ -16,7 +16,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 03,
+    id: 3,
     title: "Denim Jacket",
     image: "images/men/men 3.jpeg",
     description: "This is item 1",
@@ -24,7 +24,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 04,
+    id: 4,
     title: "Denim Jacket",
     image: "images/men/men 4.jpeg",
     description: "This is item 1",
@@ -32,7 +32,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 05,
+    id: 5,
     title: "Denim Jacket",
     image: "images/men/men 5.jpeg",
     description: "This is item 1",
@@ -40,7 +40,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 06,
+    id: 6,
     title: "Denim Jacket",
     image: "images/men/men 6.jpeg",
     description: "This is item 1",
@@ -48,7 +48,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 07,
+    id: 7,
     title: "Denim Jacket",
     image: "images/men/men 7.jpeg",
     description: "This is item 1",
@@ -56,7 +56,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 08,
+    id: 8,
     title: "Denim Jacket",
     image: "images/men/men 8.jpeg",
     description: "This is item 1",
@@ -64,7 +64,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 09,
+    id: 9,
     title: "Denim Jacket",
     image: "images/men/men 9.jpeg",
     description: "This is item 1",
@@ -72,7 +72,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 010,
+    id: 10,
     title: "Denim Jacket",
     image: "images/men/men 10.jpeg",
     description: "This is item 1",
@@ -80,7 +80,7 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 011,
+    id: 11,
     title: "Denim Jacket",
     image: "images/men/men 11.jpeg",
     description: "This is item 1",
@@ -88,33 +88,33 @@ const mensItems = [
     type: "mens collection",
   },
   {
-    id: 012,
+    id: 12,
     title: "Denim Jacket",
-    image: "images/men/men 12.jpeg",
+    image: "images/men/men 2.jpeg",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
   },
   {
-    id: 013,
+    id: 13,
     title: "Denim Jacket",
-    image: "images/men/men 13.jpeg",
+    image: "images/men/men 3.jpeg",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
   },
   {
-    id: 014,
+    id: 14,
     title: "Denim Jacket",
-    image: "images/men/men 14.jpeg",
+    image: "images/men/men 4.jpeg",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
   },
   {
-    id: 015,
+    id: 15,
     title: "Denim Jacket",
-    image: "images/men/men 15.jpeg",
+    image: "images/men/men 5.jpeg",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
