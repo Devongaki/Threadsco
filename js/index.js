@@ -43,21 +43,17 @@ function getItems(arg) {
 
         productContainer.innerHTML += `
             <div class="sale-card">
-                        <a href="product.html?id">
+                        <a href="product.html?id=${items[i].id}">
                             <div class="sale-image">
                                 <img src="${items[i].image}" alt="" loading="eager">
-                                <div class="sale-lable">Sale</div>
                             </div>    
                         </a>
                         <div class="sale-title">
                                 <p>${items[i].title}</p>
                             </div>
                             <div class="sale-price">
-                                <div class="old-price">
-                                    <p>700 kr</p>
-                                </div>
-                                <div class="new-price">
-                                    <p>550 kr</p>
+                                <div class="price">
+                                    <p>${items[i].Price} kr</p>
                                 </div>
                             </div>
                     </div>
