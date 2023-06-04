@@ -28,3 +28,42 @@ function handleCloseClick() {
 menuIcon.addEventListener("click", handleMenuClick);
 closeIcon.addEventListener("click", handleCloseClick);
 
+
+
+
+// Grnerate items and display them to the Dom
+
+import items from "./items.js";
+
+const productContainer = document.querySelector(".sale-container");
+
+
+function getItems(arg) {
+    for(let i = 0; i < items.length; i++){
+
+        productContainer.innerHTML += `
+            <div class="sale-card">
+                        <a href="product.html?id">
+                            <div class="sale-image">
+                                <img src="/images/sale 1.jpeg" alt="" loading="eager">
+                                <div class="sale-lable">Sale</div>
+                            </div>    
+                        </a>
+                        <div class="sale-title">
+                                <p>${items.title}</p>
+                            </div>
+                            <div class="sale-price">
+                                <div class="old-price">
+                                    <p>700 kr</p>
+                                </div>
+                                <div class="new-price">
+                                    <p>550 kr</p>
+                                </div>
+                            </div>
+                    </div>
+        `;
+        console.log(items[i])
+    }
+}
+
+getItems(items)
