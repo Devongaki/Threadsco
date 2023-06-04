@@ -11,7 +11,7 @@ console.log(id)
 
 
 
-function getItem(arg){
+function getItem(){
     // accrssing the item with the matching ID
     const selectedItem = items.find(item => item.id === parseInt(id));
 
