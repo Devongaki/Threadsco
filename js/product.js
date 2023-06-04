@@ -24,7 +24,7 @@ function getItem(){
                         </div>
                         <div class="product-purchase-column">
                             <div class="product-purchase-header">
-                                <div class="product-item-type">Men's jacket</div>
+                                <div class="product-item-type">${selectedItem.category}</div>
                                 <h3 class="product-item-name">${selectedItem.title}</h3>
                                 <div class="product-item-price">
                                     <h4 class="price">${selectedItem.Price}&nbsp;Kr</h4>

@@ -3,8 +3,10 @@ const items = [
     id: 1,
     title: "Green Dress",
     image: "images/homepage/sale 1.jpeg",
-    description: "This is item 1",
+    description:
+      "Elevate your style with this stunning green dress adorned with white stripes. The vibrant green color adds a fresh and lively touch, while the crisp white stripes create a chic and timeless look. The dress features a flattering silhouette that enhances your figure, making it suitable for various occasions.",
     Price: 680.99,
+    category: "womens collection",
   },
 
   {
@@ -34,14 +36,16 @@ const items = [
     id: 5,
     title: "polka dot dress",
     image: "images/homepage/sale 5.jpeg",
-    description: "This is item 1",
+    description:
+      "Make a bold statement with this red polka dot dress. Its vibrant color and playful pattern add a touch of charm and style. Designed with a flattering fit and flare silhouette, this dress is perfect for any occasion. Embrace timeless elegance with this eye-catching piece.",
     Price: 590.99,
   },
   {
     id: 6,
     title: "Handmade Sweater",
     image: "images/homepage/sale 6.jpeg",
-    description: "This is item 1",
+    description:
+      "Add a pop of color and style to your child's wardrobe with this yellow handmade sweater. Featuring charming patterns, this cozy and trendy sweater is perfect for keeping your little one warm and fashionable. Stand out from the crowd with this unique piece.",
     Price: 590.99,
   },
   {
