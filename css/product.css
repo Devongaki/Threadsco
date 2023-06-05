@@ -205,7 +205,10 @@ form{
 
 
 /* more-product-container */
-
+.more-product-section{
+    display: grid;
+    grid-area: span 1 / span 2 / span 1 / span 2;
+}
 .more-product-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -213,6 +216,7 @@ form{
     grid-column-gap: 24px;
     grid-template-rows: auto;
     grid-row-gap: 40px;   
+    grid-area: span 1 / span 2 / span 1 / span 2;
 }
 .more-product-header{
     display: grid;
@@ -243,5 +247,21 @@ form{
     .more-product-section{
         padding-top: 72px;
         padding-bottom: 72px;
+    }
+    .more-product-container{
+        grid-template-columns: 1fr 1fr;
+         grid-row-gap: 34px;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .more-product-button{
+        grid-area: 3 /1 / 4 / 2;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .more-product-container{
+        grid-template-columns: 1fr;
     }
 }
