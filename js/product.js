@@ -1,4 +1,5 @@
 const product = document.querySelector(".product-section");
+const moreProduct = document.querySelector(".more-product-container");
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get("id");
@@ -59,5 +60,30 @@ function getItem(){
 
     console.log(selectedItem)
 }
-
 getItem(id)
+
+function displayMoreProducts(){
+    for(let i = 0; i < 4; i++){
+        
+        moreProduct.innerHTML += `
+        <div class="m-product-items">
+            <div class="product-card">
+                <a href="product.html?id=${items[i].id}">
+                    <div class="product-image">
+                        <img src="${items[i].image}" alt="" loading="eager">
+                    </div>    
+                </a>
+                <div class="product-title">
+                    <p>${items[i].title}</p>
+                </div>
+                <div class="product-price">
+                    <div class="price">
+                        <p>${items[i].Price} kr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+displayMoreProducts()

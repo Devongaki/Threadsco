@@ -354,7 +354,7 @@ ion-icon {
 }
 
 .price{
-  padding-left: 10px;
+  float: left;
 }
 /* Sale Section */
 
