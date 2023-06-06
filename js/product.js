@@ -63,7 +63,7 @@ function getItem(){
 getItem(id)
 
 function displayMoreProducts(){
-    for(let i = 0; i < 4; i++){
+    for(let i = 1; i < 5; i++){
         
         moreProduct.innerHTML += `
         <div class="m-product-items">
