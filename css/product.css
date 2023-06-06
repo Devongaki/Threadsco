@@ -359,8 +359,29 @@ form{
     line-height: inherit;
     padding: 9px 15px;
 }
-.line{
+
+.success-message{
+    display: none;
+    background-color: #ebe5db;
+    border-radius: 2px;
+    text-align: center;
+    padding: 20px;
+}
+.error-message{
+    display: none;
+    background-color: #a24043;
+    color: #fcfaf8;
+    border-radius: 2px;
+    text-align: center;
+    padding: 20px;
+}
+.footer-line{
     height: 2px;
-    background-color: red;
+    background-color: #a24043;
     border-radius: 20px;
+}
+
+.bottom-footer-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
