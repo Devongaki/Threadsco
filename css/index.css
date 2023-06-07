@@ -431,6 +431,10 @@ ion-icon {
   line-height: 150%;
 }
 
+.b-heading{
+  padding-bottom: 10px;
+  font-size: 22px;
+}
 .blog-list-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -503,6 +507,27 @@ ion-icon {
 .blog-card-title{
   font-size: 24px;
   line-height: 130%;
+}
+
+.blog-show-more-btn{
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-show-more-btn a{
+  padding: 20px 40px;
+  background-color: #ac1313;
+  color: #fff;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+}
+.blog-show-more-btn a:hover{
+  background-color: #fff;
+  color: #ac1313;
+  border: 1px solid #ac1313;
 }
 
 
