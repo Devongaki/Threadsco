@@ -2,7 +2,7 @@ const mensItems = [
   {
     id: 1,
     title: "Denim Jacket",
-    image: "images/men/men 1.jpeg",
+    image: "images/men/men 1.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -10,7 +10,7 @@ const mensItems = [
   {
     id: 2,
     title: "Denim Jacket",
-    image: "images/men/men 2.jpeg",
+    image: "images/men/men 2.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -18,7 +18,7 @@ const mensItems = [
   {
     id: 3,
     title: "Denim Jacket",
-    image: "images/men/men 3.jpeg",
+    image: "images/men/men 3.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -26,7 +26,7 @@ const mensItems = [
   {
     id: 4,
     title: "Denim Jacket",
-    image: "images/men/men 4.jpeg",
+    image: "images/men/men 4.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -34,7 +34,7 @@ const mensItems = [
   {
     id: 5,
     title: "Denim Jacket",
-    image: "images/men/men 5.jpeg",
+    image: "images/men/men 5.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -42,7 +42,7 @@ const mensItems = [
   {
     id: 6,
     title: "Denim Jacket",
-    image: "images/men/men 6.jpeg",
+    image: "images/men/men 6.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -50,7 +50,7 @@ const mensItems = [
   {
     id: 7,
     title: "Denim Jacket",
-    image: "images/men/men 7.jpeg",
+    image: "images/men/men 7.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -58,7 +58,7 @@ const mensItems = [
   {
     id: 8,
     title: "Denim Jacket",
-    image: "images/men/men 8.jpeg",
+    image: "images/men/men 8.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -66,7 +66,7 @@ const mensItems = [
   {
     id: 9,
     title: "Denim Jacket",
-    image: "images/men/men 9.jpeg",
+    image: "images/men/men 9.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -74,7 +74,7 @@ const mensItems = [
   {
     id: 10,
     title: "Denim Jacket",
-    image: "images/men/men 10.jpeg",
+    image: "images/men/men 10.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -82,7 +82,7 @@ const mensItems = [
   {
     id: 11,
     title: "Denim Jacket",
-    image: "images/men/men 11.jpeg",
+    image: "images/men/men 11.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -90,7 +90,7 @@ const mensItems = [
   {
     id: 12,
     title: "Denim Jacket",
-    image: "images/men/men 2.jpeg",
+    image: "images/men/men 1.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -98,7 +98,7 @@ const mensItems = [
   {
     id: 13,
     title: "Denim Jacket",
-    image: "images/men/men 3.jpeg",
+    image: "images/men/men 3.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -106,7 +106,7 @@ const mensItems = [
   {
     id: 14,
     title: "Denim Jacket",
-    image: "images/men/men 4.jpeg",
+    image: "images/men/men 4.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",
@@ -114,7 +114,7 @@ const mensItems = [
   {
     id: 15,
     title: "Denim Jacket",
-    image: "images/men/men 5.jpeg",
+    image: "images/men/men 5.webp",
     description: "This is item 1",
     Price: 590.99,
     type: "mens collection",

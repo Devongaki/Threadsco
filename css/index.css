@@ -361,12 +361,14 @@ ion-icon {
 
 .product-card{
   position: relative;
+  
 }
 
 .product-image img{
   width: 100%;
   height: 400px;
   object-fit: cover;
+  background-color: grey;
 }
 
 .product-lable{
