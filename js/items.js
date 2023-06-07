@@ -47,7 +47,7 @@ const items = [
   {
     id: 6,
     title: "Handmade Sweater",
-    image: "images/homepage/sale 6.webp",
+    image: "images/homepage/sale 3.webp",
     description:
       "Add a pop of color and style to your child's wardrobe with this yellow handmade sweater. Featuring charming patterns, this cozy and trendy sweater is perfect for keeping your little one warm and fashionable. Stand out from the crowd with this unique piece.",
     Price: 590.99,
