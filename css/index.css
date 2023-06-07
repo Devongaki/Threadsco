@@ -353,15 +353,8 @@ ion-icon {
   
 }
 
-@media screen and (min-width: 767px){
-  .product-container{
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 .product-card{
   position: relative;
-  
 }
 
 .product-image img{
@@ -392,6 +385,12 @@ ion-icon {
 
 .price{
   float: left;
+}
+
+@media screen and (min-width: 767px){
+  .product-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /* Sale Section */
 
