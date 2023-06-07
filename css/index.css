@@ -238,13 +238,23 @@ ion-icon {
 }
 
 .hero-button button {
-  width: 30%;
   padding: 20px 40px;
   background-color: #ac1313;
   color: #fff;
   line-height: 22px;
   border: none;
   cursor: pointer;
+}
+
+
+@media screen and (max-width:991px){
+  .hero-content{
+    width: 100%;
+  }
+  .hero-tilte{
+    font-size: 28px;
+    width: 100%;
+  }
 }
 /* Hero Section */
 
