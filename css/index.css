@@ -506,6 +506,17 @@ ion-icon {
 }
 
 
+@media screen and (max-width: 991px){
+  .blog-list-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 750px){
+  .blog-list-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
