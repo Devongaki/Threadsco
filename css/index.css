@@ -204,7 +204,7 @@ ion-icon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),url(/images/heroImage/arrow-forward-outline.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/images/heroImage/arrow-forward-outline.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -216,11 +216,23 @@ ion-icon {
   justify-content: center;
   width: 100%;
   max-width: 700px;
+  text-align: center;
+}
+.hero-title{
+  padding-bottom: 32px;
+  color: #fff;
+  width: 100%;
+}
+.hero-text{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 32px;
 }
 .hero-background-img{
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  text-align: center;
 }
 
 .hero-btns{
@@ -232,7 +244,7 @@ ion-icon {
 .button-dark{
   display: flex;
   margin-top: 0px;
-  padding: 7.5px 32px;
+  padding: 15px 42px;
   justify-content: center;
   align-items: center;
   border-radius: 6px;
@@ -246,7 +258,7 @@ ion-icon {
 
 .button-ligh{
   display: flex;
-  padding: 7.5px 32px;
+  padding: 15px 42px;
   justify-content: center;
   align-items: center;
   border-radius: 6px;
