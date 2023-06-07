@@ -512,6 +512,13 @@ ion-icon {
   }
 }
 @media screen and (max-width: 750px){
+
+  .blog-title{
+    font-size: 32px;
+  }
+  .blog-description{
+    font-size: 14px;
+  }
   .blog-list-grid{
     grid-template-columns: 1fr;
   }
