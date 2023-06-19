@@ -71,39 +71,39 @@ a{
 /* Logo styles */
 
 nav{
-    display: block;
-    width: 100%;
-    padding: 0px 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid #ccc;
-    line-height: 20px;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 1000;
+  display: block;
+  width: 100%;
+  padding: 0px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ccc;
+  line-height: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height: 90px;
 }
 .nav-logo {
-    font-size: 15px;
-    color: black;
+  font-size: 15px;
+  color: black;
 }
 
 
 /* Menu styles */
 .nav-menu{
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .nav-menu.active{
@@ -260,7 +260,7 @@ ion-icon {
   text-align: center;
 }
 
-.button-ligh{
+.button-light{
   display: flex;
   padding: 15px 42px;
   justify-content: center;
@@ -277,6 +277,24 @@ ion-icon {
 @media screen and (max-width: 660px) {
   .hero-btns{
     flex-direction: column;
+    
+  }
+  .button-dark{
+    width: 100%;
+  }
+
+  .button-light{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .hero-title{
+    font-size: 33px;
+  }
+
+  .hero-text{
+    font-size: 14px;
   }
 }
 /* Hero Section */
