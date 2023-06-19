@@ -51,6 +51,7 @@
     border-radius: 4px;
     padding: 6px;
     margin: 0 10px;
+    border: none;
 }
 
 .quantity button {
@@ -63,6 +64,18 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.minus-btn {
+  margin-right: -10px;
+  Cursor: pointer;
+}
+
+.plus-btn {
+  margin-left: -10px;
+  Cursor: pointer;
+}
+
+
 .total-price {
   width: 60px;
   text-align: right;
