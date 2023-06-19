@@ -1,4 +1,4 @@
-const items = [
+const homeItems = [
   {
     id: 1,
     title: "Green Dress",
@@ -71,6 +71,6 @@ const items = [
   },
 ];
 
-export default items;
+export default homeItems;
 
 

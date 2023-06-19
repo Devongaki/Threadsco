@@ -350,11 +350,12 @@ ion-icon {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-  
+  justify-content: center;
 }
 
 .product-card{
   position: relative;
+  
 }
 
 .product-image img{
@@ -389,9 +390,11 @@ ion-icon {
 
 @media screen and (min-width: 767px){
   .product-container{
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 /* Sale Section */
 
 

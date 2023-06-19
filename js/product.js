@@ -4,7 +4,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get("id");
 
-import items from "./items.js";
+import homeItems from "./productItems/homeItems.js";
 
 
 console.log(id)
@@ -15,7 +15,7 @@ console.log(id)
 
 function getItem(){
     // accrssing the item with the matching ID
-    const selectedItem = items.find(item => item.id === parseInt(id));
+    const selectedItem = homeItems.find((item) => item.id === parseInt(id));
 
     if(selectedItem){
         product.innerHTML = `
@@ -68,17 +68,17 @@ function displayMoreProducts(){
         moreProduct.innerHTML += `
         <div class="m-product-items">
             <div class="product-card">
-                <a href="product.html?id=${items[i].id}">
+                <a href="product.html?id=${homeItems[i].id}">
                     <div class="product-image">
-                        <img src="${items[i].image}" alt="" loading="eager">
+                        <img src="${homeItems[i].image}" alt="" loading="eager">
                     </div>    
                 </a>
                 <div class="product-title">
-                    <p>${items[i].title}</p>
+                    <p>${homeItems[i].title}</p>
                 </div>
                 <div class="product-price">
                     <div class="price">
-                        <p>${items[i].Price} kr</p>
+                        <p>${homeItems[i].Price} kr</p>
                     </div>
                 </div>
             </div>

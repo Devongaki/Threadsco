@@ -1,35 +1,31 @@
+
 // Grnerate items and display them to the Dom
-const postHtml = document.querySelector(".product-container");
-const url = "http://localhost:8888/threadco/wp-json/wc/store/products";
 
-async function fetchPoata() {
-  const response = await fetch(url);
-  const post = await response.json();
+import homeItems from "./productItems/homeItems.js";
+const productContainer = document.querySelector(".product-container");
 
-  console.log(post);
 
-  const createPosts = (posts) => {
-    const postContent = posts.map((post) => {
-      return `
-                    <div class="product-card">
-                        <a href="product.html?id">
+function getItems() {
+    for (let i = 0; i < homeItems.length; i++) {
+      productContainer.innerHTML += `
+            <div class="product-card">
+                        <a href="product.html?id=${homeItems[i].id}">
                             <div class="product-image">
-                                <img src="${post.images[0].src}" alt="" loading="eager">
+                                <img src="${homeItems[i].image}" alt="" loading="eager">
                             </div>    
                         </a>
                         <div class="product-title">
-                                <p>${post.name}</p>
+                                <p>${homeItems[i].title}</p>
                             </div>
                             <div class="product-price">
                                 <div class="price">
-                                    <p>${post.prices.price} kr</p>
+                                    <p>${homeItems[i].price} kr</p>
                                 </div>
                             </div>
-                    </div>`;
-    });
-    postHtml.innerHTML = postContent;
-  };
-  createPosts(post);
+                    </div>
+        `;
+      console.log(homeItems[i]);
+    }
 }
 
-fetchPoata();
+getItems(homeItems);
